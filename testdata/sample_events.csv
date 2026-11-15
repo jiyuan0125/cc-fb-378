@@ -1,0 +1,33 @@
+pay_id,channel,event,amount,ts
+W001,wxpay,success,100.00,2026-08-20 09:00:00
+W001,wxpay,refund,100.00,2026-08-21 10:00:00
+W002,wxpay,success,200.00,2026-08-20 11:00:00
+W002,wxpay,reverse,200.00,2026-08-21 11:03:00
+W003,wxpay,success,55.00,2026-08-20 12:00:00
+W003,wxpay,success,55.00,2026-08-20 12:05:00
+A001,alipay,success,120.00,2026-08-20 08:00:00
+A001,alipay,refund,40.00,2026-08-20 15:00:00
+A001,alipay,refund,30.00,2026-08-20 18:00:00
+A002,alipay,success,80.00,2026-08-20 09:30:00
+A002,alipay,reverse,80.00,2026-08-20 09:34:00
+U001,unionpay,success,50.00,2026-08-20 10:00:00
+U001,unionpay,refund,50.00,2026-08-22 09:00:00
+U001,unionpay,refund,20.00,2026-08-22 09:30:00
+U002,unionpay,success,60.00,2026-08-20 13:00:00
+U002,unionpay,reverse,60.00,2026-08-20 13:02:00
+U002,unionpay,refund,20.00,2026-08-20 14:00:00
+C001,cmbpay,refund,90.00,2026-08-20 16:00:00
+C002,cmbpay,success,100.00,2026-08-21 09:00:00
+C002,cmbpay,refund,30.00,2026-08-22 09:00:00
+J001,jdpay,reverse,77.00,2026-08-20 17:00:00
+J002,jdpay,refund,10.00,2026-08-20 08:00:00
+J002,jdpay,success,70.00,2026-08-20 08:30:00
+M001,ccbpay,success,45.00,2026-08-20 10:00:00
+M001,ccbpay,refund,0.00,2026-08-20 10:30:00
+M002,ccbpay,success,33.33,2026-08-21 10:00:00
+M002,ccbpay,refund,11.11,2026-08-21 11:00:00
+M002,ccbpay,refund,22.22,2026-08-21 12:00:00
+X001,wxpay,success,10.00,2026-08-20 09:00:00
+X001,alipay,refund,10.00,2026-08-20 09:10:00
+badrow,with,extra,column,here,oops
+Z001,wxpay,bogus,5.00,2026-08-20 09:00:00
